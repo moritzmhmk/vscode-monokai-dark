@@ -1,0 +1,219 @@
+{
+	/* Colors used:
+	ghost-white: #c5c8c6;
+	gray: #565554;
+	dark-gray: #282828;
+	black: #111;
+
+	yellow: #E6DB74;
+	blue: #66D9EF;
+	pink: #F92672;
+	purple: #AE81FF;
+	orange: #FD971F;
+	green: #A6E22E;*/
+	"name": "Monokai Dark",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#282828", // color: dark-gray
+		"editor.foreground": "#c5c8c6", // color: ghost-white
+		"editor.selectionBackground": "#111" // color: black
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#565554" // color: gray
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant.character",
+				"constant.numeric",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#AE81FF" // color: purple
+			}
+		},
+		{
+			"name": "Class",
+			"scope": "entity.name.class",
+			"settings": {
+				"foreground": "#A6E22E" // color: green
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#A6E22E" // color: green
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": ["entity.name.tag", "meta.tag"],
+			"settings": {
+				"foreground": "#F92672" // color: pink
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#A6E22E" // color: green
+			}
+		},
+		{
+			"name": "Inherited Class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#A6E22E" // color: green
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#F92672", // color: pink
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#F92672", // color: pink
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#F92672", // color: pink
+			}
+		},
+		{
+			"name": "Type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66D9EF", // color: blue
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#E6DB74", // color: yellow
+			}
+		},
+		{
+			"name": "Support",
+			"scope": ["support.constant", "support.function"],
+			"settings": {
+				"foreground": "#66D9EF", // color: blue
+			}
+		},
+		{
+			"name": "Support",
+			"scope": ["support.class", "support.type"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66D9EF", // color: blue
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#c5c8c6b3", // color: 70% dimmed ghost-white
+			}
+		},
+		{
+			"name": "Parameter",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#FD971F", // color: orange
+			}
+		},
+		// CSS specific
+		{
+			"name": "CSS Unit",
+			"scope": "source.css keyword.other.unit",
+			"settings": {
+				"foreground": "#AE81FF" // color: purple
+			}
+		},
+		// JS Specific
+		{
+			"name": "THis",
+			"scope": "variable.language.this.js",
+			"settings": {
+				"foreground": "#F92672" // color: pink
+			}
+		},
+		// Python Specific
+		{
+			"name": "self",
+			"scope": "variable.parameter.function.language.special.self.python",
+			"settings": {
+				"foreground": "#F92672" // color: pink
+			}
+		},
+		// Markdown specific
+		{
+			"name": "Markdown - Heading",
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"foreground": "#A6E22E" // color: green
+			}
+		},
+		{
+			"name": "Markdown - Link URL",
+			"scope": "markup.underline.link.markdown",
+			"settings": {
+				"foreground": "#E6DB74" // color: yellow
+			}
+		},
+		{
+			"name": "Markdown - Link Name",
+			"scope": "string.other.link.title.markdown",
+			"settings": {
+				"foreground": "#AE81FF" // color: purple
+			}
+		},
+		{
+			"name": "Markdown - Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Italic",
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown - Code",
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"markup.fenced_code.block.markdown",
+			],
+			"settings": {
+				"foreground": "#66D9EF" // color: blue
+			}
+		},
+		{
+			"name": "Markdown - List",
+			"scope": "punctuation.definition.list.begin.markdown",
+			"settings": {
+				"foreground": "#F92672" // color: pink
+			}
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "monokai-dark",
+    "displayName": "Monokai Dark",
+    "description": "This theme has a dark background with light text and uses the colors of the original Monokai theme.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/moritzmhmk/vscode-monokai-dark.git"
+    },
+    "bugs": {
+        "url": "https://github.com/moritzmhmk/vscode-monokai-dark/issues"
+    },
+    "homepage": "https://github.com/moritzmhmk/vscode-monokai-dark/blob/master/README.md",
+    "publisher": "mhmk",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-dark-color-theme.json"
+            }
+        ]
+    }
+}
